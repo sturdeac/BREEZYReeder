@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "BREEZY Reeder",
+    "description": "Replace text with EZ to read \"font\" for those who have trouble reading plain text.",
+    "version": "1.0.0",
+    "author": "Andrew Cole Sturdevant",
+    "browser_action": {
+        "default_title": "BREEZY Reeder"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "all_frames": true,
+            "js": ["third_party/jquery-3.6.0.min.js", "contentScript.js"],
+            "run_at": "document_end"
+        }
+    ]
+}
