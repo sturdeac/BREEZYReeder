@@ -5,7 +5,7 @@ BREEZYReeder is a Chrome extension to make reading easier for those who have a h
 
 BREEZYReeder is not published in the Chrome Web Store. 
 
-Use caution using BREEZYReeder as it does not work 100% and does break functionality of links within a webpage.
+Use caution using BREEZYReeder as it does not work 100%. Read the Known Issues seciton.
 
 ## Install instructions:
 - Clone this repo
@@ -13,3 +13,7 @@ Use caution using BREEZYReeder as it does not work 100% and does break functiona
 - Enable Developer Mode
 - Click "Load Unpacked"
 - Select the folder for this code
+
+## Known Issues
+- Links are known to break sometimes.
+- If there are repeated words in a paragraph, subsequent words will not be formatted.
