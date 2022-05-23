@@ -1,11 +1,11 @@
 {
     "manifest_version": 2,
-    "name": "BREEZY Reeder",
+    "name": "BREEZYReeder",
     "description": "Replace text with EZ to read \"font\" for those who have trouble reading plain text.",
     "version": "1.0.0",
     "author": "Andrew Cole Sturdevant",
     "browser_action": {
-        "default_title": "BREEZY Reeder"
+        "default_title": "BREEZYReeder"
     },
     "content_scripts": [
         {
